@@ -19,7 +19,7 @@ rosdep update
 Далее необходимо размесить исходный код этого репозитория в папке src внутри директории рабочего пространства, которую обычно называют catkin_ws:
 ```bash
 $ mkdir ~/catkin_ws/src -p && cd ~/catkin_ws/src
-$ git clone ...
+$ git clone https://github.com/cds-mipt/raai_summer_school_cv_2021.git
 ```
 
 ## Загрузка и подготовка данных
