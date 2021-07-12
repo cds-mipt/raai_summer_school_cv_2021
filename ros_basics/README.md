@@ -229,6 +229,7 @@ $ catkin_create_pkg my_cool_packet rospy std_msgs sensor_msgs
 ```bash
 $ cd ~/catkin_ws
 $ catkin_make
+$ source devel/setup.bash
 ```
 Эта команда находит все ROS пакеты используя файл package.xml, исполняемые python скрипты в них могут быть запущены в качестве узлов. То есть, при создании собственного python скрипта его необходимо пометить как исполняемый, чтобы они были корректно распознаны:
 ```bash
